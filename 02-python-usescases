@@ -1,0 +1,53 @@
+### 1. Masking a Mobile Number in Python ###
+
+mobile = "9876543210"
+
+masked = mobile[:2] + "*" * (len(mobile)-4) + mobile[-2:]
+print(masked)
+------------------------------------------------------------------
+### 2. Bank Balance Check ###
+
+balance = 50000
+withdraw = 10000
+
+if withdraw < balance:
+    print("Withdrawal Successful!")
+    balance -= withdraw
+    print("Remaining Balance :", balance)
+else:
+    print("Insuffiecient Balance")
+--------------------------------------------------------------------
+### 3. Extracting a Booking ID from a String ###
+
+message = "Your uber booking id is UB12345. Please keep it safe."
+
+booking_id = message.split("is")[1].split(".")[0].strip()
+print(booking_id)
+----------------------------------------------------------------------
+### 4. Checking whether a Promo code exists in a String
+
+message = "Use Zomato500 to get 50% off on your first order!"
+print(
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
